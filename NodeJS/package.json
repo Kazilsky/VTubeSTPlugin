@@ -1,0 +1,31 @@
+{
+  "name": "vtubeemulateemo",
+  "version": "1.0.0",
+  "description": "Simple test application to test VTUBE Studio with plugin functions via NodeJS",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kazilsky/VTubeSTPlugin.git"
+  },
+  "keywords": [
+    "VtubeStudio",
+    "VTube",
+    "VTubePlugin",
+    "Emulate"
+  ],
+  "author": "Kazilsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kazilsky/VTubeSTPlugin/issues"
+  },
+  "homepage": "https://github.com/Kazilsky/VTubeSTPlugin#readme",
+  "dependencies": {
+    "gpt4all": "^2.2.0",
+    "vtubestudio": "^3.9.0",
+    "websocket": "^1.0.34",
+    "ws": "^8.16.0"
+  }
+}
